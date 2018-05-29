@@ -1,6 +1,16 @@
+var buttonx = 900;
+var buttony = 600;
+
+var button = {
+  x:900,
+  y:600
+}
+
 var theButton = function() {
+  
+  
   fill(255, 250, 0);
-  rect(900, 600, 200, 100);
+  rect(buttonx, buttony, 200, 100);
   fill(0, 0, 0);
   textSize(25);
   text("Start!", 950, 650);
@@ -8,9 +18,13 @@ var theButton = function() {
 
 var drawScene1 = function() {
   background(200, 175, 175);
-  text("Select character", 200, 50);
-  
-}
+  text("Select character", 500, 150);
+  fill(9, 255, 0);
+  rect(450, 500, 200, 100);
+  fill(0, 0, 0);
+  textSize(25);
+  text("Play", 450, 500);
+};
 
 function setup() {
   createCanvas(1250, 900);
