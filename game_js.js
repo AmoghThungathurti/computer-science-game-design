@@ -2,13 +2,13 @@ var buttonx = 900;
 var buttony = 600;
 
 var button = {
-  x:900,
+  x: 900, 
   y:600
-}
+  }
 
 var theButton = function() {
-  
-  
+
+
   fill(255, 250, 0);
   rect(buttonx, buttony, 200, 100);
   fill(0, 0, 0);
@@ -45,12 +45,20 @@ function mouseClicked() {
   if (mouseX > 900 && mouseX < 900 + 200
     && mouseY > 600 && mouseY < 700) {
     background(98, 86, 92);
-
-
     drawScene1();
   }
-}
+
+  if (mouseX > 250 && mouseX < 450 
+    && mouseY > 500 && mouseY < 600) {
+    background(128, 116, 128);
+    drawScene2();
+  }
+  if (mouseX > 750 && mouseX < 950
+    && mouseY > 500 && mouseY <  600) {
+    background(128, 116, 128);
+    drawScene3();
+  }
+};
 
 function draw() {
-
 };
