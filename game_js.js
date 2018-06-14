@@ -18,18 +18,18 @@ var theButton = function() {
 
 var drawScene1 = function() {
   background(200, 175, 175);
-  text("Select character", 500, 150);
+  text("Select your car", 500, 150);
   fill(9, 255, 0);
   rect(250, 500, 200, 100);
   fill(0, 0, 0);
-  image = https://github.com/AmoghThungathurti/computer-science-game-design/blob/master/car-png-20.png 
-  textSize(25);
-  text("Character 1", 305, 560);
+  
+	textSize(25);
+  text("Car 1", 305, 560);
   fill(9, 255, 0);
   rect(750, 500, 200, 100);
   fill(0, 0, 0);
   textSize(25);
-  text("Character 2", 800, 560);
+  text("Car 2", 800, 560);
   fill(0, 0, 0);
 };
 
