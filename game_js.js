@@ -22,6 +22,7 @@ var drawScene1 = function() {
   fill(9, 255, 0);
   rect(250, 500, 200, 100);
   fill(0, 0, 0);
+  image = https://github.com/AmoghThungathurti/computer-science-game-design/blob/master/car-png-20.png 
   textSize(25);
   text("Character 1", 305, 560);
   fill(9, 255, 0);
