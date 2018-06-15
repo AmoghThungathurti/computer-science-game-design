@@ -1,5 +1,9 @@
 var buttonx = 900;
 var buttony = 600;
+var img;
+function preload() {
+	img  = loadImage('assets/pictures/car_one.jpg');
+}
 
 var button = {
   x: 900, 
@@ -22,8 +26,8 @@ var drawScene1 = function() {
   fill(9, 255, 0);
   rect(250, 500, 200, 100);
   fill(0, 0, 0);
-  
-	textSize(25);
+  textSize(25);
+  image(img, 605, 560);
   text("Car 1", 305, 560);
   fill(9, 255, 0);
   rect(750, 500, 200, 100);
@@ -35,8 +39,7 @@ var drawScene1 = function() {
 
 function setup() {
   createCanvas(1250, 900);
-  background(92, 86, 92); 
-
+  background(92, 86, 92);
   theButton();
   textSize(34);
   text("The Ultimate Racer", 500, 450);
